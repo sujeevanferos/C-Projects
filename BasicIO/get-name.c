@@ -5,10 +5,10 @@ int main() {
 
     // Ask for user input
     printf("Enter your name: ");
-    scanf("%49s", name);  // Read input from the user (up to 49 characters to avoid buffer overflow)
+    scanf("%49s", name); //Read input from the user (up to 49 characters to avoid buffer overflow)
 
     // Print the output
-    printf("Hello, %s!\n", name);
+    printf("Hello, %s!\n", name); // %s - strings, %d - integers, %f - float
 
     return 0;
 }
