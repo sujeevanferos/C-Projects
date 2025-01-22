@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include <stdbool.h>
 int main(){
-    int x = 10;
-    printf("number %d\n", x);
-    printf("")
+    int age;
+    printf("\nEnter Your Age: ");
+    scanf("%d", &age);
+    printf("You are %d years old dude!", age);
     return 0;
+
 }
