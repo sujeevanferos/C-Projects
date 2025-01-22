@@ -12,6 +12,7 @@ int main(){
 
     printf("your name is: %s and age: %d\n", name, age);
     
+    
   
 
     return 0;
