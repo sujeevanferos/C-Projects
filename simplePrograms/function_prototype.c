@@ -5,7 +5,7 @@ void hello(char[], int); // function prototype
 int main()
 {
 
-    char name[] = "Sujeevan";
+    char name[] = "sujeevan";
     int age = 22;
     hello(name, age);
     return 0;
