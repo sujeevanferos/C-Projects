@@ -1,15 +1,19 @@
 #include <stdio.h>
-#include <string.h>
 
 
-int main()
+int main() 
 {
-    char name1[50] = "Sujeevan";
-    char name2[] = "Feros";
+    char ch;
+    char s[4];
+    char sen[100];
+    
+    scanf("%c\n", &ch);
+    scanf("%s\n", s);
+    fgets(sen, 100, stdin);
+    
+    printf("\n%c", ch);
+    printf("\n%s", s);
+    printf("\n%s", sen);
 
-    strrev(name1);
-
-    printf("%s\n", name1);
-
-    return 1;
+    return 0;
 }
