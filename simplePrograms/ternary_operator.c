@@ -1,27 +1,21 @@
 #include <stdio.h>
 
-int findmax(int x, int y){
-
-    /*if (x > y){
-        return x;
-    }
-
-    else{
-        return y;
-    }*/
-
-   //we can replace the above quoted lines with a single line ====>
-   //(condition) ? value_it_true : value_if_false
-
-   return(x > y) ? x : y;
-
+int max(int a, int b)
+{
+    return (a > b) ? a  b;
 }
 
+int max_of_four(int a, int b, int c, int d)
+{
+    int maximum = max(max(a, b), max(c, d));
+    return maximum;
+}
 
-int main(){
-
-    int max = findmax(4,5);
-    printf("%d\n", max);
+int main() {
+    int a, b, c, d;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    int ans = max_of_four(a, b, c, d);
+    printf("%d\n", ans);
+    
     return 0;
-
 }

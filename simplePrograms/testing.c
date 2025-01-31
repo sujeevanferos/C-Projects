@@ -1,19 +1,26 @@
 #include <stdio.h>
 
-
-int main() 
-{
-    char ch;
-    char s[4];
-    char sen[100];
+int main()
+{   
+    int a;
+    int b;
+    float c;
+    float d;
+    int e;
+    int f;
+    float g;
+    float h;
     
-    scanf("%c\n", &ch);
-    scanf("%s\n", s);
-    fgets(sen, 100, stdin);
+    scanf("%d %d", &a, &b);
+    scanf("%f %f", &c, &d);
+     
+    e = a + b;
+    f = a - b;
+    g = c + d;
+    h = c - d;
     
-    printf("\n%c", ch);
-    printf("\n%s", s);
-    printf("\n%s", sen);
-
+    printf("%d %d", e, f);
+    printf("%.1f %.1f", g, h);
+    
     return 0;
 }
