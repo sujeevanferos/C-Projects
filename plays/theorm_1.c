@@ -9,6 +9,7 @@ int main()
         
         if(num % 2 == 0)
         {
+
             num /= 2;
 
         }
