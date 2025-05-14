@@ -32,7 +32,6 @@ void init_game() {
     snake.body[0].x = WIDTH / 2;
     snake.body[0].y = HEIGHT / 2;
     snake.direction = 'R'; // Start moving right
-			   // //new line
 
     // Initialize food
     food.pos.x = rand() % WIDTH;
