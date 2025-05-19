@@ -10,6 +10,8 @@ int main(){
     fgets(name, 25, stdin); //====> use this for getting space between the 1st and last name:)
     name[strlen(name)-1] = '\0'; //====> this is for avoid the line break during the fgets function works
 
+    //getchar(); also can be used for avoid the newline while fgets buffer
+
     printf("\nEnter Your Age: ");
     scanf("%d", &age);
     printf("Hello %s! You are %d years old dude!",name, age);
