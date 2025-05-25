@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-/*void reverseEcho(char* message)
+void reverseEcho(char* message)
 {
   int len = strlen(message);
   char last_char = tolower(message[len-1]);
@@ -22,7 +22,7 @@ int beaconPattern(int n)
   if (n < 2) return 1;
   else
    return beaconPattern(n-1) + beaconPattern(n-2);
-}*/
+}
 
 int isRecursivePalindrome (char* str, int start, int end)
 {
