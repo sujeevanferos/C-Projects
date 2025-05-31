@@ -27,9 +27,12 @@ int beaconPattern(int n)
 int isRecursivePalindrome (char* str, int start, int end)
 {
   if(tolower(str[start]) == tolower(str[end]))
-    return 1;
+	printf("TRUE");
 
-  else return 0;
+  else if(tolower(str[start]) != tolower(str[end]))
+	printf("FALE");
+
+  else printf("INVALID");
 
   return isRecursivePalindrome(str, start++, end--);
 }
